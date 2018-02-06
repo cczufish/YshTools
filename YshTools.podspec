@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YshTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YshTools.'
+  s.summary          = '基础工具类YshTools.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
