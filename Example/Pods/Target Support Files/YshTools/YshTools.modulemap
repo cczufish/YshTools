@@ -1,0 +1,6 @@
+framework module YshTools {
+  umbrella header "YshTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "YshTools",
+  "version": "0.1.0",
+  "summary": "A short description of YshTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cczufish/YshTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cczufish": "cczuysh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/cczufish/YshTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YshTools/Classes/**/*"
+}
