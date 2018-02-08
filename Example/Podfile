@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'YshTools_Example' do
   pod 'YshTools', :path => '../'
+  pod "CTMediator"
 
   target 'YshTools_Tests' do
     inherit! :search_paths

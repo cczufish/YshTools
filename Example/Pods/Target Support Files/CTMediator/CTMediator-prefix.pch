@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "UIButton+touch.h"
-
-FOUNDATION_EXPORT double YshToolsVersionNumber;
-FOUNDATION_EXPORT const unsigned char YshToolsVersionString[];
-

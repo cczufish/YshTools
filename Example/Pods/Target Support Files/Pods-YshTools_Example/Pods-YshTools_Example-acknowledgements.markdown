@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## CTMediator
+
+MIT
+
+
 ## YshTools
 
 Copyright (c) 2018 cczufish <cczuysh@gmail.com>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		319ACE77202C348F0092B093 /* RYNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319ACE71202C348F0092B093 /* RYNewsViewController.m */; };
+		319ACE78202C348F0092B093 /* Target_News.m in Sources */ = {isa = PBXBuildFile; fileRef = 319ACE75202C348F0092B093 /* Target_News.m */; };
+		319ACE79202C348F0092B093 /* CTMediator+RYNewsAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 319ACE76202C348F0092B093 /* CTMediator+RYNewsAction.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,8 +42,14 @@
 /* Begin PBXFileReference section */
 		11E6447AC141CCAB249FC8F8 /* Pods-YshTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YshTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YshTools_Example/Pods-YshTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		30FD0B2C546713004F55D124 /* Pods_YshTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YshTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC17EDD6A21E4A69143EF29 /* YshTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YshTools.podspec; path = ../YshTools.podspec; sourceTree = "<group>"; };
-		414AE9DF44245D9984956E42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		319ACE71202C348F0092B093 /* RYNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewsViewController.m; sourceTree = "<group>"; };
+		319ACE72202C348F0092B093 /* Target_News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_News.h; sourceTree = "<group>"; };
+		319ACE73202C348F0092B093 /* CTMediator+RYNewsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+RYNewsAction.h"; sourceTree = "<group>"; };
+		319ACE74202C348F0092B093 /* RYNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewsViewController.h; sourceTree = "<group>"; };
+		319ACE75202C348F0092B093 /* Target_News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_News.m; sourceTree = "<group>"; };
+		319ACE76202C348F0092B093 /* CTMediator+RYNewsAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+RYNewsAction.m"; sourceTree = "<group>"; };
+		3AC17EDD6A21E4A69143EF29 /* YshTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YshTools.podspec; path = ../YshTools.podspec; sourceTree = "<group>"; };
+		414AE9DF44245D9984956E42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5FFFD5446346A6B4E4F77533 /* Pods-YshTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YshTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YshTools_Example/Pods-YshTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YshTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YshTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +71,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83D36663CC2629BEC0FB6CBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		83D36663CC2629BEC0FB6CBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B97CA937CCC9116194105C7E /* Pods-YshTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YshTools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YshTools_Tests/Pods-YshTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3E807BEC834AA078C8B986C /* Pods-YshTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YshTools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YshTools_Tests/Pods-YshTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		319ACE70202C348F0092B093 /* NewsVC */ = {
+			isa = PBXGroup;
+			children = (
+				319ACE71202C348F0092B093 /* RYNewsViewController.m */,
+				319ACE72202C348F0092B093 /* Target_News.h */,
+				319ACE73202C348F0092B093 /* CTMediator+RYNewsAction.h */,
+				319ACE74202C348F0092B093 /* RYNewsViewController.h */,
+				319ACE75202C348F0092B093 /* Target_News.m */,
+				319ACE76202C348F0092B093 /* CTMediator+RYNewsAction.m */,
+			);
+			path = NewsVC;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +154,7 @@
 		6003F593195388D20070C39A /* Example for YshTools */ = {
 			isa = PBXGroup;
 			children = (
+				319ACE70202C348F0092B093 /* NewsVC */,
 				6003F59C195388D20070C39A /* YshAppDelegate.h */,
 				6003F59D195388D20070C39A /* YshAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -388,10 +411,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YshTools_Example/Pods-YshTools_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/YshTools/YshTools.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YshTools.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +431,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319ACE78202C348F0092B093 /* Target_News.m in Sources */,
+				319ACE77202C348F0092B093 /* RYNewsViewController.m in Sources */,
 				6003F59E195388D20070C39A /* YshAppDelegate.m in Sources */,
+				319ACE79202C348F0092B093 /* CTMediator+RYNewsAction.m in Sources */,
 				6003F5A7195388D20070C39A /* YshViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

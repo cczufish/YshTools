@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "UIButton+touch.h"
+#import "CTMediator.h"
 
-FOUNDATION_EXPORT double YshToolsVersionNumber;
-FOUNDATION_EXPORT const unsigned char YshToolsVersionString[];
+FOUNDATION_EXPORT double CTMediatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char CTMediatorVersionString[];
 
